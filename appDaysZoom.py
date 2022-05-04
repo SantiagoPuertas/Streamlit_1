@@ -13,8 +13,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM
 from tensorflow.keras.layers import Dense, Dropout
 from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
 import seaborn as sns
-#from sklearn.model_selection import train_test_split
 from tensorflow import keras
 
 #gráfica interactiva

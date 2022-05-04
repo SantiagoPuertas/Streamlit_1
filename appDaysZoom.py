@@ -159,7 +159,10 @@ plt.plot(df_forecast['Date'], df_forecast['Open'], label = 'Predicted', color= '
 plt.xticks(rotation=90)
 st.pyplot(fig)
 
+
+'''
 #gráfica interactiva
+
 st.subheader('prediccion interactiva')
 fig = go.Figure()
 fig.add_trace(go.Scatter(x=original.index, y=original['Open'],
@@ -170,4 +173,4 @@ fig.add_trace(go.Scatter(x=df_forecast['Date'], y=df_forecast_ajustado['Open'],
                     name='Predicted'))
 
 fig.show()
-#st.pyplot(fig)
+'''
